@@ -9,6 +9,12 @@ Branch  | Build Status
 develop | [![Build Status](https://app.bitrise.io/app/fa4f5d4bf452bcfb/status.svg?token=HorGpL_AOw2llYz39CjmdQ&branch=develop)](https://app.bitrise.io/app/fa4f5d4bf452bcfb)
 master  | [![Build Status](https://app.bitrise.io/app/fa4f5d4bf452bcfb/status.svg?token=HorGpL_AOw2llYz39CjmdQ&branch=master)](https://app.bitrise.io/app/fa4f5d4bf452bcfb)
 
+## NOTE
+
+This is a fork from the original plugin [permission_handler](https://github.com/Baseflow/flutter-permission-handler). To avoid the [issue](https://github.com/BaseflowIT/flutter-permission-handler/issues/26) with Apple Store asking you to include all permission options when you want to submit your App, I have removed all the permissions but **camera**, **photos** and **storage** ones.
+
+So, use this plugin just to get storage permissions to your app.
+
 ## Features
 
 * Check if a permission is granted.
